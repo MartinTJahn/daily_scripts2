@@ -4,7 +4,7 @@ from Bio import SeqIO
 import argparse
 import re
 
-parser=argparse.ArgumentParser(description='Script for splitting a fatsa file for long and short sequences')
+parser=argparse.ArgumentParser(description='Script for splitting a fasta file for long and short sequences')
 parser.add_argument('--fna', dest='path', required=True, nargs='?', help='Multifasta file with DNA sequences (required)')
 parser.add_argument('--lenlim', dest='treshold', default=1000, nargs='?', help='Filter out sequences shorter than the limit. Default = 1000')
 args = parser.parse_args()
