@@ -1,4 +1,4 @@
-## Script to parse cd-hit clstr file format to get clean Cluster\tEntry format 
+## Script to parse cd-hit clstr file format to get clean Cluster","Entry format 
 ## Was tested with Python2 and CD-HIT version 4.7 (built on Mar 21 2018)
 
 import pandas as pd
